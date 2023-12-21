@@ -1,0 +1,63 @@
+[
+    {
+        "author": tom@corp,
+        "date",
+        "message",
+        "removed": "changed": "added": {
+            // classification component
+            {
+                // header
+                "entity": "wall1",
+                "type": "ifc5::classification",
+                "author": "tom@corp" // repeated here or reconstructed during querying
+                // payload
+                "classificationtype": "wall"
+            }
+            // geometry component
+            {
+                // header
+                "entity": "wall1",
+                "type": "ifc5::extrusion",
+                // payload
+                "extrusionDirection": "",
+                "extrusionprofile": "",
+            }
+            // placement component
+            {
+                // header
+                "entity": "wall1",
+                "type": "ifc5::placement",
+                // payload
+                "transform": []
+            }
+            // void component
+            {
+                // header
+                "entity": "wall1",
+                "type": "ifc5::isvoidedby",
+                "tags": [],
+                "status": "pending",
+                // payload
+                "void": "window1"
+            }
+            // void component
+            {
+                // header
+                "entity": "wall1",
+                "type": "ifc5::isvoidedby",
+                // payload
+                "void": "window2"
+            }
+            // void entity window1_voidcomponent
+            // pointcloud component
+            {
+                // header
+                "entity": "wall1",
+                "type": "e57::geometry",
+                // payload
+                "e57binary": "309c8273n948c2930423093013"
+            }
+        }
+    },
+    {}
+]

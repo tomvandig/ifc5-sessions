@@ -1,0 +1,53 @@
+
+
+// window instance component
+{
+    // header
+    "entity": "window1",
+    "type": "ifc5::occurrence",
+
+    // payload
+    "InstanceOf": "window"
+}
+
+// placement component
+{
+    // header
+    "entity": "window1",
+    "type": "ifc5::placement",
+
+    // payload
+    "transform": []
+}
+
+// classification component
+{
+    // header
+    "entity": "window",
+    "type": "ifc5::classification",
+
+    // payload
+    "classificationtype": "ifcwindow"
+}
+
+// geometry component
+{
+    // header
+    "entity": "window",
+    "type": "ifc5::geometry",
+
+    // payload
+    "geometryType": "body",
+    "brep": []
+}
+
+// geometry component
+{
+    // header
+    "entity": "window",
+    "type": "ifc5::geometry",
+
+    // payload
+    "geometryType": "void",
+    "brep": []
+}
